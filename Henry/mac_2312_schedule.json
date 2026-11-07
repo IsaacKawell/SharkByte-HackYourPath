@@ -1,0 +1,90 @@
+[
+    {
+        "course_id": "MAC 2312",
+        "title": "Calc and Analytical Geometry 2",
+        "option": 1,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 4582",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 8:00AM to 9:30AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "MAC 2312",
+        "title": "Calc and Analytical Geometry 2",
+        "option": 2,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 3502",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 5:10PM to 7:20PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "MAC 2312",
+        "title": "Calc and Analytical Geometry 2",
+        "option": 3,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 5140",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 8:00AM to 10:10AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "MAC 2312",
+        "title": "Calc and Analytical Geometry 2",
+        "option": 4,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 2692",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 11:40AM to 1:50PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "MAC 2312",
+        "title": "Calc and Analytical Geometry 2",
+        "option": 5,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 3659",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 8:00AM to 10:10AM",
+        "instructor": "Raul Alvarez"
+    },
+    {
+        "course_id": "MAC 2312",
+        "title": "Calc and Analytical Geometry 2",
+        "option": 6,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 4540",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 5:20PM to 7:30PM",
+        "instructor": "Donnell Boles"
+    },
+    {
+        "course_id": "MAC 2312",
+        "title": "Calc and Analytical Geometry 2",
+        "option": 7,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 6098",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 8:00AM to 10:10AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "MAC 2312",
+        "title": "Calc and Analytical Geometry 2",
+        "option": 8,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 2860",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 8:00AM to 11:00AM",
+        "instructor": "Carlos Gil"
+    }
+]
