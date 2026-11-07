@@ -1,0 +1,79 @@
+[
+    {
+        "course_id": "BSC 2010",
+        "title": "General Biology I",
+        "option": 1,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 1104",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 9:15AM to 10:20AM",
+        "instructor": "Kendra Merchant, Marbelys Pino"
+    },
+    {
+        "course_id": "BSC 2010",
+        "title": "General Biology I",
+        "option": 2,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 3541",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "To be announced",
+        "instructor": "Alfredo Leon"
+    },
+    {
+        "course_id": "BSC 2010",
+        "title": "General Biology I",
+        "option": 3,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 6122",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "To be announced",
+        "instructor": "Alfredo Leon"
+    },
+    {
+        "course_id": "BSC 2010",
+        "title": "General Biology I",
+        "option": 4,
+        "status": "Open",
+        "session": "Ten Week",
+        "class_section": "Lecture - 4973",
+        "meeting_dates": "05/24/2027 - 07/30/2027",
+        "days_and_times": "Thursday 5:40PM to 7:40PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "BSC 2010",
+        "title": "General Biology I",
+        "option": 5,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 1105",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Tuesday Thursday 9:40AM to 11:40AM",
+        "instructor": "Victoria Zusman"
+    },
+    {
+        "course_id": "BSC 2010",
+        "title": "General Biology I",
+        "option": 6,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 1722",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 8:00AM to 11:20AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "BSC 2010",
+        "title": "General Biology I",
+        "option": 7,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 3084",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 5:40PM to 9:00PM",
+        "instructor": "To be Announced"
+    }
+]

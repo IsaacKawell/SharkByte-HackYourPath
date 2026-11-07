@@ -1,0 +1,90 @@
+[
+    {
+        "course_id": "BSC 2010L",
+        "title": "General Biology I Lab",
+        "option": 1,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Laboratory - 1101",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Wednesday 5:40PM to 10:00PM",
+        "instructor": "Alejo Morales"
+    },
+    {
+        "course_id": "BSC 2010L",
+        "title": "General Biology I Lab",
+        "option": 2,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Laboratory - 3460",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday 5:00PM to 9:20PM",
+        "instructor": "Luis Nivelo"
+    },
+    {
+        "course_id": "BSC 2010L",
+        "title": "General Biology I Lab",
+        "option": 3,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Laboratory - 1102",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 10:35AM to 12:55PM",
+        "instructor": "Antonio Perez"
+    },
+    {
+        "course_id": "BSC 2010L",
+        "title": "General Biology I Lab",
+        "option": 4,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Laboratory - 7394",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 5:20PM to 7:30PM",
+        "instructor": "Manette Tanelus"
+    },
+    {
+        "course_id": "BSC 2010L",
+        "title": "General Biology I Lab",
+        "option": 5,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Laboratory - 1103",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Tuesday Thursday 12:30PM to 5:00PM",
+        "instructor": "Jorge Obeso"
+    },
+    {
+        "course_id": "BSC 2010L",
+        "title": "General Biology I Lab",
+        "option": 6,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Laboratory - 3085",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 12:00PM to 4:20PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "BSC 2010L",
+        "title": "General Biology I Lab",
+        "option": 7,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Laboratory - 1723",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 12:30PM to 5:00PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "BSC 2010L",
+        "title": "General Biology I Lab",
+        "option": 8,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Laboratory - 5824",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Friday 8:00AM to 12:20PM",
+        "instructor": "To be Announced"
+    }
+]
