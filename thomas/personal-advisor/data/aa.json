@@ -1,0 +1,428 @@
+{
+ "id": "mdc-aa",
+ "name": "MDC Associate in Arts (AA)",
+ "effectiveTerm": "Fall 2026",
+ "source": "MDC Associate in Arts Degree Pathway Guide, effective Fall 2026",
+ "minGrade": "C",
+ "requirements": [
+  {
+   "group": "Communications (6 cr)",
+   "type": "all",
+   "courses": [
+    "ENC 1101",
+    "ENC 1102"
+   ]
+  },
+  {
+   "group": "Oral Communications (3 cr)",
+   "type": "pick",
+   "pick": 1,
+   "courses": [
+    "ENC 2300",
+    "SPC 1017",
+    "SPC 2608"
+   ]
+  },
+  {
+   "group": "Mathematics (6 cr)",
+   "type": "slots",
+   "slots": [
+    {
+     "label": "State Core (3 cr)",
+     "options": [
+      "MAC 1105",
+      "MAC 2311",
+      "MGF 1130",
+      "STA 2023"
+     ]
+    },
+    {
+     "label": "MDC Core (3 cr)",
+     "options": [
+      "MAC 1105",
+      "MAC 1106",
+      "MAC 1114",
+      "MAC 1140",
+      "MAC 1147",
+      "MAC 2233",
+      "MAC 2311",
+      "MAC 2312",
+      "MAC 2313",
+      "MAD 1100",
+      "MAD 2104",
+      "MAP 2302",
+      "MAS 2103",
+      "MGF 1130",
+      "MGF 1131",
+      "QMB 2100",
+      "STA 2023"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Humanities (6 cr)",
+   "type": "slots",
+   "slots": [
+    {
+     "label": "State Core (3 cr)",
+     "options": [
+      "ARH 1000",
+      "HUM 1020",
+      "LIT 2000",
+      "MUL 1010",
+      "PHI 2010",
+      "THE 2000"
+     ]
+    },
+    {
+     "label": "MDC Core (3 cr)",
+     "options": [
+      "ARC 2701",
+      "ARC 2702",
+      "ARH 1000",
+      "ARH 2050",
+      "ARH 2051",
+      "ARH 2740",
+      "DAN 2100",
+      "DAN 2130",
+      "HUM 1020",
+      "LIT 2000",
+      "LIT 2120",
+      "MUH 2111",
+      "MUH 2112",
+      "MUL 1010",
+      "MUL 2380",
+      "PHI 2010",
+      "PHI 2600",
+      "THE 2000"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Social Sciences (6 cr)",
+   "type": "slots",
+   "slots": [
+    {
+     "label": "State Core (3 cr)",
+     "options": [
+      "AMH 2010",
+      "AMH 2020",
+      "ANT 2000",
+      "ECO 2013",
+      "POS 2041",
+      "PSY 2012"
+     ]
+    },
+    {
+     "label": "MDC Core (3 cr)",
+     "options": [
+      "AMH 2010",
+      "AMH 2020",
+      "ANT 2000",
+      "DEP 2000",
+      "ECO 2013",
+      "POS 2041",
+      "PSY 2012",
+      "WOH 2012",
+      "WOH 2022"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Natural Sciences (6 cr)",
+   "type": "slots",
+   "slots": [
+    {
+     "label": "State Core (3 cr)",
+     "options": [
+      "AST 1002",
+      "BSC 1005",
+      "BSC 2010",
+      "BSC 2085",
+      "CHM 1020",
+      "CHM 1045",
+      "ESC 1000",
+      "EVR 1001",
+      "GLY 1010",
+      "OCE 1001",
+      "PHY 1020",
+      "PHY 2048",
+      "PHY 2053"
+     ]
+    },
+    {
+     "label": "MDC Core (3 cr)",
+     "options": [
+      "AST 1002",
+      "BOT 1010",
+      "BSC 1005",
+      "BSC 1084",
+      "BSC 2010",
+      "BSC 2020",
+      "BSC 2085",
+      "CHM 1020",
+      "CHM 1025",
+      "CHM 1033",
+      "CHM 1045",
+      "CHM 1046",
+      "CHM 2200",
+      "CHM 2210",
+      "CHM 2211",
+      "ESC 1000",
+      "EVR 1001",
+      "GLY 1010",
+      "GLY 1100",
+      "HUN 1201",
+      "MET 1010",
+      "OCB 1010",
+      "OCE 1001",
+      "PHY 1004",
+      "PHY 1020",
+      "PHY 1025",
+      "PHY 2048",
+      "PHY 2049",
+      "PHY 2053",
+      "PHY 2054",
+      "PSC 1121",
+      "PSC 1515"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "General Education Elective (3 cr)",
+   "type": "pick",
+   "pick": 1,
+   "courses": [
+    "AMH 2010",
+    "AMH 2020",
+    "AMH 2035",
+    "AML 2010",
+    "AML 2020",
+    "ANT 2000",
+    "ARC 2701",
+    "ARC 2702",
+    "ARH 1000",
+    "ARH 2050",
+    "ARH 2051",
+    "ARH 2740",
+    "ASL 1140C",
+    "ASL 1150C",
+    "ASL 2210",
+    "ASL 2220",
+    "ASL 2400",
+    "ASL 2430",
+    "ASL 2510",
+    "AST 1002",
+    "BOT 1010",
+    "BOT 1010L",
+    "BOT 2150C",
+    "BSC 1005",
+    "BSC 1005L",
+    "BSC 1084",
+    "BSC 2010",
+    "BSC 2010L",
+    "BSC 2011",
+    "BSC 2011L",
+    "BSC 2020",
+    "BSC 2085",
+    "BSC 2085L",
+    "BSC 2086",
+    "BSC 2086L",
+    "CHI 1120",
+    "CHI 1121",
+    "CHM 1020",
+    "CHM 1025",
+    "CHM 1025L",
+    "CHM 1033",
+    "CHM 1033L",
+    "CHM 1045",
+    "CHM 1045L",
+    "CHM 1046",
+    "CHM 1046L",
+    "CHM 2200",
+    "CHM 2200L",
+    "CHM 2210",
+    "CHM 2210L",
+    "CHM 2211",
+    "CHM 2211L",
+    "CLP 2000",
+    "CRW 2001",
+    "CRW 2002",
+    "DAN 2100",
+    "DAN 2130",
+    "DAN 2131",
+    "DEP 2000",
+    "DEP 2100",
+    "ECO 2013",
+    "ECO 2023",
+    "ECO 2301",
+    "EDF 1005",
+    "ENC 1101",
+    "ENC 1102",
+    "ENC 2300",
+    "ENG 2012",
+    "ENL 2012",
+    "ENL 2022",
+    "ESC 1000",
+    "EUH 2032",
+    "EVR 1001",
+    "FRE 1120",
+    "FRE 1121",
+    "GER 1120",
+    "GER 1121",
+    "GLY 1010",
+    "GLY 1010L",
+    "GLY 1100",
+    "HLP 1081",
+    "HUM 1020",
+    "HUN 1201",
+    "INR 2002",
+    "ITA 1120",
+    "ITA 1121",
+    "JPN 1120",
+    "JPN 1121",
+    "LAH 2021",
+    "LIT 2000",
+    "LIT 2090",
+    "LIT 2120",
+    "MAC 1105",
+    "MAC 1105L",
+    "MAC 1106",
+    "MAC 1114",
+    "MAC 1140",
+    "MAC 1147",
+    "MAC 2233",
+    "MAC 2311",
+    "MAC 2312",
+    "MAC 2313",
+    "MAD 1100",
+    "MAD 2104",
+    "MAP 2302",
+    "MAS 2103",
+    "MCB 2010",
+    "MCB 2010L",
+    "MET 1010",
+    "MGF 1130",
+    "MGF 1131",
+    "MUH 2111",
+    "MUH 2112",
+    "MUL 1010",
+    "MUL 2380",
+    "OCB 1010",
+    "OCE 1001",
+    "PHI 1100",
+    "PHI 2010",
+    "PHI 2600",
+    "PHY 1004",
+    "PHY 1004L",
+    "PHY 1020",
+    "PHY 1025",
+    "PHY 2048",
+    "PHY 2048L",
+    "PHY 2049",
+    "PHY 2049L",
+    "PHY 2053",
+    "PHY 2053L",
+    "PHY 2054",
+    "PHY 2054L",
+    "POR 1120",
+    "POR 1121",
+    "POS 2041",
+    "POS 2112",
+    "PSC 1121",
+    "PSC 1515",
+    "PSY 2012",
+    "QMB 2100",
+    "REL 1210",
+    "REL 1240",
+    "RUS 1120",
+    "RUS 1121",
+    "SOP 2002",
+    "SPC 1017",
+    "SPC 2601",
+    "SPC 2608",
+    "SPN 1120",
+    "SPN 1121",
+    "STA 2023",
+    "THE 2000",
+    "WOH 2012",
+    "WOH 2022"
+   ],
+   "note": "Any course on the AA general education elective list that is not already used above."
+  },
+  {
+   "group": "First Year Experience",
+   "type": "pick",
+   "pick": 1,
+   "courses": [
+    "SLS 1106",
+    "IDH 1001",
+    "IDH 1002",
+    "IDH 2003",
+    "IDH 2004",
+    "SLS 1125",
+    "SLS 1401",
+    "SLS 1502",
+    "SLS 1505",
+    "SLS 1510"
+   ],
+   "note": "SLS 1106, or one of the alternatives based on advisor recommendation."
+  },
+  {
+   "group": "Foreign Language Competency",
+   "type": "pick",
+   "pick": 1,
+   "courses": [
+    "ASL 1150C",
+    "CHI 1121",
+    "FRE 1121",
+    "GER 1121",
+    "ITA 1121",
+    "JPN 1121",
+    "POR 1121",
+    "RUS 1121",
+    "SPN 1121",
+    "FLC EXAM"
+   ],
+   "note": "Can be met by an FLC standardized exam or the level-1121 course in a language."
+  },
+  {
+   "group": "Computer Competency",
+   "type": "check",
+   "anyOf": [
+    "CGS 1060C",
+    "CC TEST"
+   ],
+   "note": "Must attempt by the 16th earned college-level credit and satisfy by the 31st."
+  },
+  {
+   "group": "Civic Literacy Competency",
+   "type": "check",
+   "anyOf": [
+    "AMH 2010",
+    "AMH 2020",
+    "POS 2041"
+   ],
+   "also": [
+    "FCLE"
+   ],
+   "note": "Requires a civic literacy course AND a passing score on the Florida Civic Literacy Exam."
+  },
+  {
+   "group": "Pathway Electives (24 cr)",
+   "type": "note",
+   "note": "Chosen by pathway and transfer school. Courses not used for general education can count here. Confirm with an advisor."
+  }
+ ],
+ "notes": [
+  "General education courses require a grade of C or higher.",
+  "The AA needs 60 credits: 36 general education (15 State Core + 21 MDC Core) plus 24 pathway electives.",
+  "Each math/humanities/social science/natural science area needs one State Core course and one different MDC Core course.",
+  "Gordon Rule: 6 credits of writing-intensive English plus 6 more credits of writing-intensive coursework, and 6 credits of college algebra-level or higher math.",
+  "Civic literacy: one of AMH 2010, AMH 2020 or POS 2041 can also count in Social Sciences."
+ ]
+}
