@@ -76,7 +76,27 @@ setInterval(() => {
 }, WINDOW_MS).unref();
 
 // API routes
+
+async function parseGeminiRequest(body) {
+  const { GoogleGenAI } = require("@google/genai");
+  if (!process.env.GEMINI_API_KEY) throw new Error("Gemini API key missing");
+  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+  const response = await ai.models.generateContent({
+    model: "gemini-3.5-flash-lite",
+    contents: `Extract schedule preferences from this request. Return JSON only.
+Courses must be course-code strings, e.g. MAC2311.
+term must be spring, summer, or fall.
+campus should be a full MDC campus name.
+work must contain objects with days (full English day names), startTime and endTime (24-hour HH:MM).
+Do not invent courses, sections or times.
+Request: ${JSON.stringify(String(body?.prompt || "").slice(0, 4000))}`,
+    config: { responseMimeType: "application/json" }
+  });
+  return JSON.parse(response.text);
+}
+
 const AI_ROUTES = {
+  "POST /api/gemini/parse": (b) => parseGeminiRequest(b),
   "POST /api/chat": (b) => advisor.chat(b),
 
   "POST /api/ask": (b) => advisor.ask(b),
