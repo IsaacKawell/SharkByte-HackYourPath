@@ -5,3 +5,7 @@ node_modules/
 *.log
 .DS_Store
 coverage/
+
+# Temporary Gemini integration files
+.gemini-integration-temp/
+src/Gemini-Agent-Integration.zip.zip
