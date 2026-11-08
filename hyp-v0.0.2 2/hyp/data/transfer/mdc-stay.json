@@ -1,0 +1,13 @@
+{
+ "id": "mdc-stay",
+ "label": "MDC: I would like to continue my degree here",
+ "school": "MDC",
+ "program": "Continue at MDC",
+ "noAudit": true,
+ "source": "MDC Associate in Arts Degree Pathway Guide, effective Fall 2026",
+ "notes": [
+  "The student plans to continue their degree at MDC instead of transferring, so there is no separate transfer-school audit. Use the AA audit.",
+  "No program-specific requirements for other MDC degrees or programs are loaded in this tool. After the AA plan, recommend meeting an MDC advisor about program-specific requirements.",
+  "Pathway electives (24 credits) should be chosen with the student's intended program in mind. Confirm choices with an MDC advisor."
+ ]
+}
