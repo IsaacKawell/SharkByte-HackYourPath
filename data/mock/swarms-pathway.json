@@ -1,0 +1,24 @@
+{
+  "recommendedCourses": [
+    {
+      "code": "ENC 1101",
+      "reason": "Foundational English composition requirement.",
+      "priority": "high"
+    },
+    {
+      "code": "MAC 2311",
+      "reason": "Calculus I is an important prerequisite for Computer Science transfer.",
+      "priority": "high"
+    },
+    {
+      "code": "COP 2800",
+      "reason": "Introduction to Java programming.",
+      "priority": "medium"
+    },
+    {
+      "code": "SPC 1017",
+      "reason": "Communication and general education requirement.",
+      "priority": "medium"
+    }
+  ]
+}

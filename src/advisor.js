@@ -24,7 +24,11 @@ const SYSTEM_PROMPT =
   "The audit results are computed by software and are correct: explain them, do not recalculate them. " +
   "The AA audit and the transfer-school audit are separate: one course can count toward both. " +
   "Grade thresholds differ: AA general education needs C or higher, and each transfer school sets its own minimum. " +
-  "Only ask the student for their courses if the task says AUDIT RESULTS: none yet. " +
+  "An empty student course list is valid: recommend a balanced starting pathway based on the audit. " +
+  "Recommend a balanced mix of eligible mathematics, writing, programming and general education when supported by the data. " +
+  "Never recommend courses already completed or in progress. " +
+  "Respect prerequisites and identify missing placement information instead of assuming eligibility. " +
+  "Do not treat a single missing transfer prerequisite as the student's entire semester plan. " +
   "If a STUDENT COURSE LIST or audit results are present, the student HAS shared their courses: use them and never ask for them again. " +
   "If the task lists text we could not read as course codes, ask the student to use codes like MAC 2311. " +
   "If the student plans to continue at MDC, focus on finishing the AA and do not invent other MDC program requirements. " +
@@ -105,8 +109,8 @@ async function chat(body = {}) {
   const records = Object.fromEntries(Object.entries(allRecords).filter(([c]) => !unrecognized.includes(c)));
   const recognized = Object.keys(records);
 
-  let auditBlock = "AUDIT RESULTS: none yet (the student has not listed their courses).";
-  if (recognized.length) {
+  let auditBlock = "";
+  {
     const audits = {
       associateInArts: auditLayer(AA, records, CATALOG),
       transferProgram: !target
@@ -114,14 +118,16 @@ async function chat(body = {}) {
         : target.noAudit
           ? "Student plans to continue at MDC; there is no separate transfer audit."
           : auditLayer(target, records, CATALOG),
-      note: "Courses listed without a grade were assumed passed.",
+      note: recognized.length
+        ? "Courses listed without a grade were assumed passed."
+        : "No completed courses reported. This is a valid new-student profile.",
     };
     auditBlock =
       `STUDENT COURSE LIST (${recognized.length} recognized): ${recognized.join(", ")}\n` +
       "AUDIT RESULTS (computed by software):\n" + JSON.stringify(audits);
   }
   if (unrecognized.length) {
-    if (!recognized.length) auditBlock = "AUDIT RESULTS: none yet (the student's text could not be read as course codes).";
+    if (!recognized.length) auditBlock += "\nNo valid course codes were recognized.";
     auditBlock += `\nTEXT WE COULD NOT READ AS COURSE CODES: ${unrecognized.join(", ")}`;
   }
 
@@ -168,4 +174,115 @@ async function ask(body = {}) {
   return { reply };
 }
 
-module.exports = { chat, ask, listTargets };
+
+// Structured academic recommendations for Gemini Schedule Master.
+async function generatePathway(body = {}) {
+  const student = body.student || {};
+  const completed = Array.isArray(student.completedCourses)
+    ? student.completedCourses : [];
+  const inProgress = Array.isArray(student.inProgressCourses)
+    ? student.inProgressCourses : [];
+  const targets = Array.isArray(student.targetUniversities)
+    ? student.targetUniversities : [];
+
+  const normalize = c => String(c).trim().toUpperCase()
+    .replace(/^([A-Z]{3})\s*(\d)/, "$1 $2");
+
+  const excluded = new Set([...completed, ...inProgress].map(normalize));
+
+  const requirements = [
+    ...AA.requirements,
+    ...targets.flatMap(t => {
+      const key = String(t).toLowerCase().includes("fiu")
+        ? "fiu-cs"
+        : String(t).toLowerCase().includes("fsu")
+          ? "fsu-cs" : null;
+      return key && TRANSFER[key]
+        ? TRANSFER[key].requirements : [];
+    })
+  ];
+
+  const availableCodes = new Set();
+
+  function collect(value) {
+    if (typeof value === "string") {
+      const code = normalize(value);
+      if (CATALOG[code] && !excluded.has(code)) {
+        availableCodes.add(code);
+      }
+    } else if (Array.isArray(value)) {
+      value.forEach(collect);
+    } else if (value && typeof value === "object") {
+      if (value.courses) collect(value.courses);
+      if (value.slots) collect(value.slots);
+      if (value.options) collect(value.options);
+    }
+  }
+
+  requirements.forEach(collect);
+
+  const catalog = [...availableCodes].map(code => ({
+    code,
+    name: CATALOG[code].name,
+    prerequisites: CATALOG[code].prereqs || null
+  }));
+
+  const task = JSON.stringify({
+    instruction: "Recommend a balanced academic pathway. Return ONLY a JSON object with a recommendedCourses array. Each item must contain code, reason, priority. Select only from candidateCourses. Never recommend completed or in-progress courses. Do not treat missing prerequisites as confirmed eligibility. Balance mathematics, programming, general education and sciences. Consider prerequisite sequencing. Do not invent course sections, times or availability. Return at most 8 recommended courses.",
+    student,
+    candidateCourses: catalog,
+    requirements: requirements.map(r => ({
+      group: r.group,
+      type: r.type,
+      pick: r.pick,
+      courses: r.courses,
+      slots: r.slots
+    }))
+  });
+
+  const raw = process.env.MOCK_SWARMS === "true"
+    ? JSON.stringify(require("../data/mock/swarms-pathway.json"))
+    : await callSwarms({
+    agentName: "Academic-Pathway-Planner",
+    description: "Structured academic pathway recommendations",
+    systemPrompt: "You are an academic planning agent. Return valid JSON only. Use only provided course codes and requirements.",
+    task,
+    maxTokens: 1800,
+    temperature: 0.2
+  });
+
+  let parsed;
+  try {
+    const match = String(raw).match(/\{[\s\S]*\}/);
+    parsed = JSON.parse(match ? match[0] : raw);
+  } catch {
+    throw new HttpError(502, "Swarms did not return valid pathway JSON");
+  }
+
+  const allowed = new Set(catalog.map(c => c.code));
+  const seen = new Set();
+
+  const recommendedCourses = (Array.isArray(parsed.recommendedCourses)
+    ? parsed.recommendedCourses : [])
+    .filter(c => c && typeof c.code === "string")
+    .map(c => ({
+      code: normalize(c.code),
+      reason: String(c.reason || "").slice(0, 300),
+      priority: String(c.priority || "medium")
+    }))
+    .filter(c => {
+      if (!allowed.has(c.code) || seen.has(c.code)) return false;
+      seen.add(c.code);
+      return true;
+    })
+    .slice(0, 8);
+
+  return {
+    student,
+    recommendedCourses,
+    schedulingStatus: "pending",
+    note: "Course recommendations require prerequisite and advisor verification. Gemini must schedule only sections supplied by the frontend."
+  };
+}
+
+module.exports = { chat, ask, listTargets, generatePathway };

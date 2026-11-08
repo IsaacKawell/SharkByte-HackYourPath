@@ -13,6 +13,7 @@ require("./src/env").loadEnv();
 const { HttpError } = require("./src/errors");
 const advisor = require("./src/advisor");
 const scheduler = require("./src/scheduler");
+const { schedulePathway } = require("./src/integration/pathwayScheduler");
 
 // Gemini Schedule Master integration
 const {
@@ -79,6 +80,18 @@ const AI_ROUTES = {
   "POST /api/chat": (b) => advisor.chat(b),
 
   "POST /api/ask": (b) => advisor.ask(b),
+  "POST /api/pathway": (b) => advisor.generatePathway(b),
+  "POST /api/pathway/schedule": async (b) => {
+    const pathway = await advisor.generatePathway(b);
+    const scheduling = schedulePathway(pathway, {
+      term: b?.term || "spring",
+      preferences: b?.preferences || {},
+      constraints: b?.constraints || {}
+    });
+
+    return { pathway, scheduling };
+  },
+
 
   // Original schedule builder
   "POST /api/schedule": (b) =>
