@@ -1,0 +1,317 @@
+{
+ "_note": "Names come from the MDC AA Pathway Guide (Fall 2026) and the FIU transfer guide. 'prereqs' lists ONLY prerequisites we are confident about; courses without a 'prereqs' key are reported as 'prerequisites not in our data'. Verify against the MDC catalog.",
+ "courses": {
+  "ENC 1101": {
+   "name": "English Composition 1"
+  },
+  "ENC 1102": {
+   "name": "English Composition 2",
+   "prereqs": [
+    "ENC 1101"
+   ]
+  },
+  "ENC 2300": {
+   "name": "Advanced Composition and Communications"
+  },
+  "SPC 1017": {
+   "name": "Introduction to Communication"
+  },
+  "SPC 2608": {
+   "name": "Introduction to Public Speaking"
+  },
+  "MAC 1105": {
+   "name": "College Algebra"
+  },
+  "MAC 1106": {
+   "name": "Integrated College and Precalculus Algebra"
+  },
+  "MAC 1114": {
+   "name": "Trigonometry"
+  },
+  "MAC 1140": {
+   "name": "Pre-Calculus Algebra"
+  },
+  "MAC 1147": {
+   "name": "Pre-Calculus Algebra and Trigonometry"
+  },
+  "MAC 2233": {
+   "name": "Business Calculus"
+  },
+  "MAC 2311": {
+   "name": "Calculus and Analytical Geometry 1"
+  },
+  "MAC 2312": {
+   "name": "Calculus and Analytical Geometry 2",
+   "prereqs": [
+    "MAC 2311"
+   ]
+  },
+  "MAC 2313": {
+   "name": "Calculus and Analytic Geometry 3",
+   "prereqs": [
+    "MAC 2312"
+   ]
+  },
+  "MAD 1100": {
+   "name": "Discrete Mathematics for Computer Science"
+  },
+  "MAD 2104": {
+   "name": "Discrete Mathematics"
+  },
+  "MAP 2302": {
+   "name": "Introduction to Differential Equations"
+  },
+  "MAS 2103": {
+   "name": "Elementary Linear Algebra"
+  },
+  "MGF 1130": {
+   "name": "Mathematical Thinking"
+  },
+  "MGF 1131": {
+   "name": "Mathematics in Context"
+  },
+  "QMB 2100": {
+   "name": "Basic Business Statistics"
+  },
+  "STA 2023": {
+   "name": "Statistical Methods"
+  },
+  "ARH 1000": {
+   "name": "Art Appreciation"
+  },
+  "HUM 1020": {
+   "name": "Humanities"
+  },
+  "LIT 2000": {
+   "name": "Introduction to Literature"
+  },
+  "MUL 1010": {
+   "name": "Music Appreciation"
+  },
+  "PHI 2010": {
+   "name": "Introduction to Philosophy"
+  },
+  "THE 2000": {
+   "name": "Theatre Appreciation"
+  },
+  "ARC 2701": {
+   "name": "History of Architecture 1"
+  },
+  "ARC 2702": {
+   "name": "History of Architecture 2"
+  },
+  "ARH 2050": {
+   "name": "Art History 1"
+  },
+  "ARH 2051": {
+   "name": "Art History 2"
+  },
+  "ARH 2740": {
+   "name": "Cinema Appreciation"
+  },
+  "DAN 2100": {
+   "name": "Dance Appreciation"
+  },
+  "DAN 2130": {
+   "name": "Dance History 1"
+  },
+  "LIT 2120": {
+   "name": "A Survey of World Literature"
+  },
+  "MUH 2111": {
+   "name": "Survey of Music History 1"
+  },
+  "MUH 2112": {
+   "name": "Survey of Music History 2"
+  },
+  "MUL 2380": {
+   "name": "Jazz and Popular Music in America"
+  },
+  "PHI 2600": {
+   "name": "Introduction to Ethics"
+  },
+  "AMH 2010": {
+   "name": "History of the US to 1877"
+  },
+  "AMH 2020": {
+   "name": "History of the US Since 1877"
+  },
+  "ANT 2000": {
+   "name": "Introduction to Anthropology"
+  },
+  "ECO 2013": {
+   "name": "Principles of Economics (Macro)"
+  },
+  "POS 2041": {
+   "name": "American Federal Government"
+  },
+  "PSY 2012": {
+   "name": "Introduction to Psychology"
+  },
+  "DEP 2000": {
+   "name": "Human Growth and Development"
+  },
+  "WOH 2012": {
+   "name": "History of World Civilization to 1789"
+  },
+  "WOH 2022": {
+   "name": "History of World Civilization From 1789"
+  },
+  "AST 1002": {
+   "name": "Descriptive Astronomy"
+  },
+  "BOT 1010": {
+   "name": "Botany"
+  },
+  "BSC 1005": {
+   "name": "General Education Biology"
+  },
+  "BSC 1084": {
+   "name": "Functional Human Anatomy"
+  },
+  "BSC 2010": {
+   "name": "Principles of Biology 1"
+  },
+  "BSC 2011": {
+   "name": "Principles of Biology 2",
+   "prereqs": [
+    "BSC 2010"
+   ]
+  },
+  "BSC 2020": {
+   "name": "Human Biology: Fundamentals of Anatomy/Physiology"
+  },
+  "BSC 2085": {
+   "name": "Human Anatomy and Physiology 1"
+  },
+  "CHM 1020": {
+   "name": "General Education Chemistry"
+  },
+  "CHM 1025": {
+   "name": "Introductory Chemistry"
+  },
+  "CHM 1033": {
+   "name": "Chemistry for Health Sciences"
+  },
+  "CHM 1045": {
+   "name": "General Chemistry and Qualitative Analysis 1"
+  },
+  "CHM 1046": {
+   "name": "General Chemistry and Qualitative Analysis 2",
+   "prereqs": [
+    "CHM 1045"
+   ]
+  },
+  "CHM 2200": {
+   "name": "Survey of Organic Chemistry"
+  },
+  "CHM 2210": {
+   "name": "Organic Chemistry 1"
+  },
+  "CHM 2211": {
+   "name": "Organic Chemistry 2"
+  },
+  "ESC 1000": {
+   "name": "General Education Earth Science"
+  },
+  "EVR 1001": {
+   "name": "Introduction to Environmental Science"
+  },
+  "GLY 1010": {
+   "name": "Physical Geology"
+  },
+  "GLY 1100": {
+   "name": "Historical Geology"
+  },
+  "HUN 1201": {
+   "name": "Essentials of Human Nutrition"
+  },
+  "MET 1010": {
+   "name": "Introduction to Weather"
+  },
+  "OCB 1010": {
+   "name": "Introduction to Marine Biology"
+  },
+  "OCE 1001": {
+   "name": "Introduction to Oceanography"
+  },
+  "PHY 1004": {
+   "name": "Physics with Applications 1"
+  },
+  "PHY 1020": {
+   "name": "General Education Physics"
+  },
+  "PHY 1025": {
+   "name": "Basic Physics"
+  },
+  "PHY 2048": {
+   "name": "Physics with Calculus 1"
+  },
+  "PHY 2049": {
+   "name": "Physics with Calculus 2",
+   "prereqs": [
+    "PHY 2048"
+   ]
+  },
+  "PHY 2053": {
+   "name": "Physics (without Calculus) 1"
+  },
+  "PHY 2054": {
+   "name": "Physics (without Calculus) 2"
+  },
+  "PSC 1121": {
+   "name": "General Education Physical Science"
+  },
+  "PSC 1515": {
+   "name": "Energy in the Natural Environment"
+  },
+  "SLS 1106": {
+   "name": "First Year Experience Seminar"
+  },
+  "IDH 1001": {
+   "name": "Honors Leadership Seminar 1"
+  },
+  "IDH 1002": {
+   "name": "Honors Leadership Seminar 2"
+  },
+  "IDH 2003": {
+   "name": "Honors Leadership Seminar 3"
+  },
+  "IDH 2004": {
+   "name": "Honors Leadership Seminar 4"
+  },
+  "SLS 1125": {
+   "name": "Student Support Seminar"
+  },
+  "SLS 1401": {
+   "name": "Psychology of Career Adjustment"
+  },
+  "SLS 1502": {
+   "name": "College Study Skills"
+  },
+  "SLS 1505": {
+   "name": "College Survival Skills"
+  },
+  "SLS 1510": {
+   "name": "Preparing for Student Success"
+  },
+  "CGS 1060C": {
+   "name": "Computer Competency course"
+  },
+  "COP 1047C": {
+   "name": "Python Programming"
+  },
+  "COP 2805C": {
+   "name": "Advanced Java Programming"
+  },
+  "FCLE": {
+   "name": "Florida Civic Literacy Exam"
+  },
+  "FLC EXAM": {
+   "name": "Foreign Language Competency exam"
+  },
+  "CC TEST": {
+   "name": "Computer competency test"
+  }
+ }
+}

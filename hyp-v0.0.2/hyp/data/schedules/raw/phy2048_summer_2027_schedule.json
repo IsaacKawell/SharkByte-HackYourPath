@@ -1,0 +1,46 @@
+[
+    {
+        "course_id": "PHY 2048",
+        "title": "Physics with Calculus 1",
+        "option": 1,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 1501",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 5:40PM to 7:50PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "PHY 2048",
+        "title": "Physics with Calculus 1",
+        "option": 2,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 1502",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 9:40AM to 11:10AM",
+        "instructor": "Adolfo Mendez"
+    },
+    {
+        "course_id": "PHY 2048",
+        "title": "Physics with Calculus 1",
+        "option": 3,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 6148",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 5:40PM to 7:50PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "PHY 2048",
+        "title": "Physics with Calculus 1",
+        "option": 4,
+        "status": "Open",
+        "session": "Ten Week",
+        "class_section": "Lecture - 2568",
+        "meeting_dates": "05/24/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday Friday 10:00AM to 11:50AM",
+        "instructor": "Jose Parra"
+    }
+]
