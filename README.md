@@ -1,5 +1,15 @@
 # SharkByte: HackYourPath
 
+## 🚀 Live Demo
+
+**[Launch HackYourPath — Live Website](https://isaackawell.github.io/SharkByte-HackYourPath/public/index.html)**
+
+Explore the academic pathway planner and university transfer planning interface.
+
+> **Demo note:** GitHub Pages hosts the frontend only. AI-powered features require the Node.js backend and configured API keys.
+
+---
+
 A transfer planner for Miami Dade College students.
 
 - **Planner (`/`)**: pick courses by term, compare universities, check progress, and ask the AI advisor or the Nom Nom chat.
