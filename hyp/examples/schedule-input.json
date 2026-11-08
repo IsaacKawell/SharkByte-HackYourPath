@@ -1,0 +1,17 @@
+{
+  "studentProfile": {
+    "name": "Alex Rodriguez",
+    "homeCampus": "MDC North",
+    "targetUniversities": ["UF", "FSU", "FIU"],
+    "targetTransferTerm": "Fall 2027"
+  },
+  "transferAnalysis": {
+    "requiredMajorCourses": ["MAC2312", "PHY2048", "COP1047C"],
+    "criticalPath": "PHY2048 and MAC2312 are mandatory for UF Engineering transfer."
+  },
+  "targetTerm": "spring",
+  "schedulingConstraints": {
+    "maxCreditsPerSemester": 13,
+    "unavailableWorkTimes": [{ "days": ["Tuesday"], "startTime": "08:00", "endTime": "11:00" }]
+  }
+}

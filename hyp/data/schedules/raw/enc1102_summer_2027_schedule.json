@@ -1,0 +1,200 @@
+[
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 1,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 2973",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 9:50AM to 11:30AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 2,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 5449",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 8:00AM to 9:05AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 3,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 5118",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Monday Wednesday 10:25AM to 12:40PM",
+        "instructor": "Isabel Rodriguez-Dehmer"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 4,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 2607",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Tuesday Thursday 11:40AM to 1:20PM",
+        "instructor": "Javier Duenas"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 5,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 5340",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Tuesday Thursday 9:50AM to 11:30AM",
+        "instructor": "Kimberly Carter"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 6,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 2853",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Monday Wednesday Friday 10:25AM to 12:40PM",
+        "instructor": "Kathleen Noonan"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 7,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 3348",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Monday Wednesday Friday 9:50AM to 12:05PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 8,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 3588",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Monday Wednesday 7:00AM to 9:20AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 9,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 1895",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Tuesday Thursday 8:00AM to 11:20AM",
+        "instructor": "Javier Duenas"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 10,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 7299",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Wednesday 8:30AM to 11:50AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 11,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 4557",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 5:40PM to 9:00PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 12,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 1893",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday Friday 10:25AM to 12:40PM",
+        "instructor": "Matthew Sagorski"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 13,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 1894",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 8:00AM to 11:20AM",
+        "instructor": "Matthew Sagorski"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 14,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 5746",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 11:40AM to 3:00PM",
+        "instructor": "Sabrina Walters"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 15,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 5764",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 6:00PM to 9:20PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 16,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 5797",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 5:40PM to 9:00PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 17,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 5839",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 12:00PM to 3:20PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "ENC 1102",
+        "title": "English Composition 2",
+        "option": 18,
+        "status": "Open",
+        "session": "Friday, Saturday, Sunday",
+        "class_section": "Lecture - 6032",
+        "meeting_dates": "05/14/2027 - 07/30/2027",
+        "days_and_times": "Saturday 10:10AM to 11:40AM",
+        "instructor": "To be Announced"
+    }
+]

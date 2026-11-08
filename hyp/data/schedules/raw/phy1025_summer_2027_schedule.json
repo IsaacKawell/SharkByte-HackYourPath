@@ -1,0 +1,145 @@
+[
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 1,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 5042",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "To be announced",
+        "instructor": "Hector Peralta"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 2,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 4537",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 9:50AM to 11:30AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 3,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 2059",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "To be announced",
+        "instructor": "Hector Peralta"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 4,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 1484",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Tuesday Thursday 3:10PM to 6:30PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 5,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 1485",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Monday Wednesday 10:25AM to 12:40PM",
+        "instructor": "Orestes Cubas Farinas"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 6,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 1766",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Tuesday Thursday 8:00AM to 11:20AM",
+        "instructor": "Eduardo Araujo Pradere"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 7,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 2732",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Tuesday Thursday 10:25AM to 11:40AM",
+        "instructor": "Jorge Gibert"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 8,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 7275",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Monday Wednesday 8:00AM to 11:20AM",
+        "instructor": "Dhiraj Maheswari"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 9,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 2479",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 11:40AM to 3:00PM",
+        "instructor": "Soumia Souchak"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 10,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 1486",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday Friday 8:00AM to 10:15AM",
+        "instructor": "Benjamin Levy"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 11,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 2236",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 11:40AM to 3:00PM",
+        "instructor": "Dagoberto Malagon Morejon"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 12,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 7298",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 3:10PM to 6:30PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "PHY 1025",
+        "title": "Basic Physics",
+        "option": 13,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 7391",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 8:00AM to 11:20AM",
+        "instructor": "Soumia Souchak"
+    }
+]

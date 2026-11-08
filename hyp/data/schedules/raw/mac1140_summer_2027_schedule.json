@@ -1,0 +1,153 @@
+[
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 1,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 3113",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 8:00AM to 9:40AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 2,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 3504",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 9:50AM to 11:30AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 3,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 1394",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 7:30PM to 9:10PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 4,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 1395",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "To be announced",
+        "instructor": "Belarmino Gonzalez"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 5,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 1396",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "To be announced",
+        "instructor": "Eric Hernandez"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 6,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 2714",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 1:30PM to 3:10PM",
+        "instructor": "Isabelle Kumar"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 7,
+        "status": "Open",
+        "session": "Main Academic Session",
+        "class_section": "Lecture - 2120",
+        "meeting_dates": "05/10/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 11:40AM to 1:20PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 8,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 4260",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Tuesday Thursday 11:40AM to 3:00PM",
+        "instructor": "Willian Neris"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 9,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 4229",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Tuesday Thursday 8:00AM to 11:20AM",
+        "instructor": "Luis Saumell"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 10,
+        "status": "Open",
+        "session": "Six Week - First",
+        "class_section": "Lecture - 6170",
+        "meeting_dates": "05/10/2027 - 06/18/2027",
+        "days_and_times": "Monday Wednesday 8:00AM to 11:20AM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 11,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 3503",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 5:40PM to 9:00PM",
+        "instructor": "To be Announced"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 12,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 3615",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Monday Wednesday 6:40PM to 10:00PM",
+        "instructor": "Juan Prieto-Valdes"
+    },
+    {
+        "course_id": "MAC 1140",
+        "title": "Precalculus Algebra",
+        "option": 13,
+        "status": "Open",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 4228",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 8:00AM to 11:20AM",
+        "instructor": "Giovanni Lorenzo"
+    },
+    {
+        "course_id": "MAC 1140",
+        "session": "Six Week - Second",
+        "class_section": "Lecture - 6094",
+        "meeting_dates": "06/21/2027 - 07/30/2027",
+        "days_and_times": "Tuesday Thursday 6:00PM to 9:20PM",
+        "instructor": "Efua Okoh"
+    }
+]
